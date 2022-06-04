@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 error</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      .message {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .message h1 {
+        font-size: 4.5em;
+        padding: 0.2em 0;
+        font-family: sans-serif;
+        color: #111029;
+      }
+      .message p {
+        font-family: sans-serif;
+        padding: 0.3em 0;
+        color: #333;
+      }
+      .message img {
+        margin: 1em 0;
+      }
+      .message a {
+        padding: 10px 30px;
+        background-color: #e4b07e;
+        border: 2px solid #e4b07e;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 1.1em;
+        transition: 0.3s;
+      }
+      .message a:hover {
+        border: 2px solid #e4b07e;
+        background: transparent;
+        color: #e4b07e;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="message">
+        <h1>Oops!</h1>
+        <p style="color: #ff517e; font-weight: 600">Error 404-Page Not Found</p>
+        <p>The page you requested could not be found.</p>
+        <p>
+          We're working on it
+          <span style="color: #e4b07e; font-weight: 800">:)</span>
+        </p>
+        <img src="./images/error.svg" alt="" width="400px" />
+        <a href="index.html">Go back</a>
+      </div>
+    </section>
+  </body>
+</html>
